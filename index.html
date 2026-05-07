@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz app</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+<div class="quiz-container">
+        <h1>📝 Loyalty Quiz</h1>
+        
+        <!-- Meesha su'aalaha -->
+        <div id="question-container">
+            <h2 id="question">Su'aashu halkan ayay ka soo bixi doontaa</h2>
+            <div id="answer-buttons" class="btn-grid">
+                <!-- Buttons-ka jawaabaha halkan ayay ka dhalan doonaan -->
+            </div>
+        </div>
+
+        <!-- Button-ka Next -->
+        <button id="next-btn" class="next-btn hide">Su'aasha Xigta &raquo;</button>
+
+        <!-- Meesha Natiijada (Percentage & Message) -->
+        <div id="result-container" class="hide">
+            <div id="score-text"></div>
+            <button class="next-btn" onclick="startQuiz()">Mar kale bilow</button>
+        </div>
+    </div>
+
+        <script src="main.js"></script>
+
+    </body>
+</html>
